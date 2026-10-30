@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist, Playfair_Display } from "next/font/google";
 import { Providers } from "./providers";
 import "./globals.css";
@@ -30,6 +31,12 @@ export default function RootLayout({
       lang="ru"
       className={`${geistSans.variable} ${playfair.variable} h-full scroll-smooth`}
     >
+      <head>
+        <Script
+          src="https://telegram.org/js/telegram-web-app.js"
+          strategy="beforeInteractive"
+        />
+      </head>
       <body className="min-h-full flex flex-col font-sans selection:bg-[#E8C7C7] selection:text-neutral-900">
         <Providers>{children}</Providers>
       </body>
