@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Élixir Beauté",
+    "slug": "elixir-beaute",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "elixirbeaute",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F4EF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.elixirbeaute.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F4EF"
+      },
+      "package": "com.elixirbeaute.app"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
+
