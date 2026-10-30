@@ -4,7 +4,6 @@
     "slug": "elixir-beaute",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "scheme": "elixirbeaute",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
@@ -17,9 +16,6 @@
       "bundleIdentifier": "com.elixirbeaute.app"
     },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#F7F4EF"
-      },
       "package": "com.elixirbeaute.app"
     },
     "plugins": [
@@ -27,4 +23,3 @@
     ]
   }
 }
-
